@@ -1,0 +1,4 @@
+def accuracy(VP, VN, FP, FN):
+    total_samples = VP + VN + FP + FN
+    correct_predictions = VP + VN
+    return correct_predictions / total_samples
